@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Random Cats Picker</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<!-- partial:index.partial.html -->
+		<div class="container">
+			<header>
+				<div class="header-div">
+					<h1 class="heading">Cats Pictures</h1>
+					<p class="about hide">
+						This shows random images of cats using
+						<a href="https://cataas.com/" class="api-credit">Cataas API</a>
+						.<br />
+						You can also choose to filter by a color present in the picture.
+					</p>
+				</div>
+			</header>
+			<main>
+				<div class="main-wrap">
+					<button class="action-btn">Random Cat Image</button>
+					<div class="filter-btns">
+						<button class="filter-btn">black</button
+						><button class="filter-btn">orange</button
+						><button class="filter-btn">brown</button>
+					</div>
+					<div class="img-wrap">
+						<img
+							class="spinner picture"
+							src="https://s10.gifyu.com/images/Spinner-1s-200px1.gif"
+							alt="loading-spinner"
+						/>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<footer class="footer">
+			<span class="text-1"><a class="small-text">View on GitHub</a></span>
+
+			<span class="text-2">Made with &hearts; by Mariam. 2021</span>
+		</footer>
+
+		<script src="./js/script.js"></script>
+	</body>
+</html>
